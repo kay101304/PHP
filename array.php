@@ -39,4 +39,10 @@ echo "<hr>";
 echo "in_array(\$a)=>";
 echo in_array(["國文"=>32,"英文"=>60,"歷史"=>99],$a);
 echo "<hr>";
+echo "sort(\$a)";
+sort($a);
+echo "<pre>";print_r($a);"</pre>";
+echo "<hr>";
+$a1=array_fill(2,7,"red");
+echo "<pre>";print_r($a1);"</pre>";
 ?>
