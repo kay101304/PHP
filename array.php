@@ -27,4 +27,16 @@ $a=[
 
 echo "<pre>";print_r($a);"</pre>";
 echo "<br>";
+
+//Array function
+$b="BBB";
+echo "count(\$a)=>";
+echo count($a);
+echo "<hr>";
+echo "is_array(\$a)=>";
+echo is_array($a);
+echo "<hr>";
+echo "in_array(\$a)=>";
+echo in_array(["國文"=>32,"英文"=>60,"歷史"=>99],$a);
+echo "<hr>";
 ?>
